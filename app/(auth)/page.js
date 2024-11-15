@@ -6,7 +6,7 @@ import { testRedirect } from "./lib/actions";
 export default function Page() {
     return (
         <Form action={testRedirect}>
-            <button style={{padding: '2rem'}}>
+            <button type='submit' style={{padding: '2rem'}}>
                 Redirect
             </button>
         </Form>
